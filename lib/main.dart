@@ -38,7 +38,7 @@ class MyAppHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyAppHomePage> {
   final TextEditingController _textEditingController = TextEditingController();
   List<List<dynamic>> messages = [];
-  CypherChatBot chatBot = CypherChatBot(Constant.API_KEY);
+  CypherChatBot chatBot = CypherChatBot();
   bool isLoading = false;
 
   @override

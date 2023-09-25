@@ -31,18 +31,6 @@ class Neo4JConnect {
     return "Something Went Wrong";
   }
 
-  // String convertListToNewLines(List<dynamic> inputList) {
-  //   final List<String> lines = [];
-  //   for (final item in inputList) {
-  //     if (item is List && item.isNotEmpty) {
-  //       final firstElement = item.first;
-  //       if (firstElement is String) {
-  //         lines.add(firstElement);
-  //       }
-  //     }
-  //   }
-  //   return lines.join('\n');
-  // }
   String convertNestedListsToNewLines(List<dynamic> inputList) {
     final List<String> lines = [];
 
